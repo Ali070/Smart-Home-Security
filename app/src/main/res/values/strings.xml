@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Smart home security</string>
+    <string name="gas">Gas</string>
+    <string name="temperature">Temperature</string>
+    <string name="water">Water</string>
+    <string name="log_in">log in</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forget_password">Forget password?</string>
+    <string name="login">Login</string>
+    <string name="dont_account">Don\'t have an account?</string>
+    <string name="signup">Signup</string>
+    <string name="dohaveacc">Do you have an account?</string>
+    <string name="username">Username</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_pass">Enter Password</string>
+    <string name="name">Name</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="enter_confirm">Enter password again</string>
+    <string name="enter_phone">Enter your phone number</string>
+    <string name="pass_mismatch">Passowrd mismatch</string>
+    <string name="enter_correct_email">Enter correct email</string>
+    <string name="reset_password">Reset password</string>
+    <string name="retry">Retry</string>
+    <string name="Reset_Password_instructions">Reset password instructions has been sent to email: %1$s</string>
+    <string name="close">Close</string>
+    <string name="failed_send_email">Failed to send email, check email and try again</string>
+    <string name="resend_timer">Resend in: %1$s</string>
+    <string name="sign_out">Sign out</string>
+    <string name="todo">TODO</string>
+    <string name="itemsignout">ItemSignout</string>
+    <string name="No_Connction">No Internet Connection</string>
+    <string name="door">Door</string>
+    <string name="locked">Locked</string>
+    <string name="open">Open</string>
+    <string name="window">Window</string>
+
+    <string name="alarm">Alarm</string>
+    <string name="error_invalid_email">Invalid email</string>
+    <string name="error_weak_password">Weak password</string>
+    <string name="error_user_exists">User already exists</string>
+    <string name="error_invalid_password">Invalid password</string>
+    <string name="error_User_notfound">User not found</string>
+</resources>

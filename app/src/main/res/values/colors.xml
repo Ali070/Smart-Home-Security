@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="greyColor">#BDBDBD</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="action_bar">#3700B3</color>
+    <color name="progfront">#FAFF00</color>
+    <color name="progback">#E5E5E5</color>
+    <color name="locking">#FFDE59</color>
+    <color name="unlocking">#ba000d</color>
+    <color name="safe">#00cb20</color>
+    <color name="warning">#FAFF00</color>
+    <color name="dangerous">#f22e12</color>
+</resources>

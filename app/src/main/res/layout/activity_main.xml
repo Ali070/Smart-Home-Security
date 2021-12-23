@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#71CBFF"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/systemsLayout"
+        android:layout_width="337dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="24dp"
+        android:alpha="0"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/mainHomeImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <Button
+            android:id="@+id/btnFiresub"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="20dp"
+            android:backgroundTint="#C4C4C4"
+            android:onClick="gotofire"
+            app:cornerRadius="10dp"
+            app:icon="@drawable/fire"
+            app:iconGravity="textEnd"
+            app:iconPadding="1dp"
+            app:iconTint="@android:color/black"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/btnWatersub"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="30dp"
+            android:backgroundTint="#C4C4C4"
+            android:onClick="gotowater"
+            app:cornerRadius="10dp"
+            app:icon="@drawable/water"
+            app:iconGravity="textEnd"
+            app:iconPadding="1dp"
+            app:iconTint="@android:color/black" />
+
+        <Button
+            android:id="@+id/btnGassub"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="30dp"
+            android:backgroundTint="#C4C4C4"
+            android:onClick="gotogas"
+            app:cornerRadius="10dp"
+            app:icon="@drawable/gasl"
+            app:iconGravity="textEnd"
+            app:iconPadding="1dp"
+            app:iconTint="@android:color/black" />
+
+        <Button
+            android:id="@+id/btnHousesub"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="30dp"
+            android:backgroundTint="#C4C4C4"
+            android:onClick="gotoاhouseBreaking"
+            app:cornerRadius="10dp"
+            app:icon="@drawable/house"
+            app:iconGravity="textEnd"
+            app:iconPadding="1dp"
+            app:iconTint="@android:color/black" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/mainHomeImage"
+        android:layout_width="210dp"
+        android:layout_height="251dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toTopOf="@+id/homePowerbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.618"
+        app:srcCompat="@drawable/home" />
+
+    <ImageView
+        android:id="@+id/mainShieldImage"
+        android:layout_width="332dp"
+        android:layout_height="319dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="19dp"
+        android:alpha="0"
+        android:contentDescription="@string/todo"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/homePowerbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/shield" />
+
+    <Button
+        android:id="@+id/homePowerbtn"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="92dp"
+        android:backgroundTint="#C4C4C4"
+        android:onClick="on_of"
+        app:cornerRadius="150dp"
+        app:icon="@android:drawable/ic_lock_power_off"
+        app:iconGravity="textEnd"
+        app:iconPadding="1dp"
+        app:iconSize="30dp"
+        app:iconTint="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/homeMicbtn"
+        android:layout_width="48dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginEnd="171dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#C4C4C4"
+        android:onClick="Mic"
+        app:cornerRadius="150dp"
+        app:icon="@drawable/ic_action_mic"
+        app:iconGravity="textEnd"
+        app:iconPadding="1dp"
+        app:iconSize="50dp"
+        app:iconTint="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

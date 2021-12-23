@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "664541329510",
+    "project_id": "smart-home-security-631ea",
+    "storage_bucket": "smart-home-security-631ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664541329510:android:6b4f6c5b92dc41161515a7",
+        "android_client_info": {
+          "package_name": "com.example.android.smarthomesecurity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664541329510-q0ficsn5p35jj2mjbf2l3fkpk7m64k27.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFXxHJdjFHqFdzL7NsqvxYG3RdD9CoutY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664541329510-q0ficsn5p35jj2mjbf2l3fkpk7m64k27.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
