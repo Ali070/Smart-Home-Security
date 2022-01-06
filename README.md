@@ -1,0 +1,3 @@
+# Smart-Home-Security
+Smart Home Security is an android app using IoT Technology which depends on hardware components and IoT Platform. This app is connected to hardware components like sensors and motors through KAA IoT Platform. This app makes user know the readings of sensors and if these readings are dangerous or not. Also user can close and open valves through app. 
+<a href="https://drive.google.com/uc?export=view&id=<FILEID>"><img src="https://drive.google.com/uc?export=view&id=1it0NrgCbEV0NppDRh-kRYiD7L5yuQ6fj" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
